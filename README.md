@@ -1,10 +1,12 @@
 Welcome to my Arkanoid game!
+To launch the game start "Arkanoid_win64.exe" file, aim in the needed direction and launch the ball by pressing left click. 
+Move platform to left and right via keyboard arrow keys. Game will end in case if ball falls down(you lose),
+or if you successfully destroy all blocks and catch the ball with a platform(you win!).
 
 I've performed development of win64 version using Visual Studio 2022, based on given SDL Framework.
-To launch the game start "Arkanoid_win64.exe" file.
 If needed, window size can be set by starting via command line: .....\Arkanoid_win64.exe -window 800x600. Supported ratio is 4:3, but other can be attempted too.
 Game sets 800x600 window by default.
-I have implemented all 4 tasks:
+I have implemented 4 tasks:
 
 1) Game will calculate a score and output it in console window every time new block gets destroyed, giving 100 per one.
 In case of destroying more than 3 in a row, every next destroyed block is rewarded with 300 score points and output is marked with (x3).
